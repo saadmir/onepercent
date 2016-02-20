@@ -1,0 +1,29 @@
+{
+  "name": "onepercent",
+  "version": "1.0.0",
+  "description": "sample api service",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "should": "^8.2.2",
+    "supertest": "^1.2.0"
+  },
+  "scripts": {
+    "test": "mocha tests/",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saadmir/onepercent.git"
+  },
+  "author": "saadmir@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/saadmir/onepercent/issues"
+  },
+  "homepage": "https://github.com/saadmir/onepercent#readme"
+}
