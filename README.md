@@ -36,7 +36,7 @@ by default, server runs on port 3000, to start the server on another port
 
 
 ### [POST] /v1/legislator/
-  inserts the post body into (in memory) legislator record list, if the post body is valid json consisting of following attributes
+  inserts the post body into the in-memory legislator record list, post body must be a valid json object with the following attributes
 
  ```
     id, name, state, district, political_party, term_starts_on, term_ends_on
