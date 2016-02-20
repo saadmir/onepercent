@@ -1,4 +1,4 @@
-# JavaScript API service
+# nodejs API service sample
 
 ## installation
 
@@ -22,11 +22,12 @@
   npm start
 ```
 
-by default server run on port 3000, to start server on another port
+by default, server runs on port 3000, to start the server on another port
 
 ```
   PORT=<port number> npm start
 ```
+
 
 ## API endpoints
 
@@ -41,7 +42,7 @@ by default server run on port 3000, to start server on another port
     id, name, state, district, political_party, term_starts_on, term_ends_on
   ```
 
-  #### sample post body:
+  sample post body:
   ```
     {
       "id": 1,
